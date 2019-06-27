@@ -1,23 +1,27 @@
 @import "variables";
 @import "../components/header/header";
 @import "../components/navigation/navigation";
-@import "../components/content/content";
+@import "../components/main-block/main-block";
+@import "../components/footer/footer";
 
-html{
-  height: 100%; 
+html {
+  height: 100%;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color:rgb(229, 229, 229);
+  background: #E5E5E5;
 }
-
-
-.main{
+.main-wrapper {
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: row;
-  background: rgb(229, 229, 229);
+  background: #E5E5E5;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

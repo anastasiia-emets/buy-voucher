@@ -6,9 +6,10 @@ html(lang='en')
         link(href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap" rel="stylesheet")
         title Buy Voucher 
     body
-        .page-wrapper
-            include components/header/header
-            .main
-                include components/navigation/navigation
-                include components/content/content
+    include components/header/header
+    .main-wrapper
+        include components/navigation/navigation
+        .content-wrapper
+            include components/main-block/main-block
+            include components/footer/footer
                 
