@@ -6,7 +6,6 @@ Includes:
 - Gulp
 - Pug
 - Sass
-- JS
 # How to use?
 - Clone repository: `git clone https://github.com/anastasiia-emets/buy-voucher.git`
 - Install gulp [npm](https://www.npmjs.com/): `npm install`
