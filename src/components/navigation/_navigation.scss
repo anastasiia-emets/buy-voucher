@@ -15,9 +15,7 @@
     align-items: center;
     margin-left: 13px;
   }
-  &__icon{
-    margin-bottom:30px;
-  }
+ 
   &__element {
     width: 300px;
     height: 48px;
@@ -29,6 +27,7 @@
     background: #ffffff;
     border: 0;
     color: #334d6e;
+    cursor: pointer;
     &:hover {
       background: rgba(16, 156, 241, 0.03);
       color: #109cf1;
@@ -38,4 +37,8 @@
     background: rgba(16, 156, 241, 0.03);
     color: #109cf1;
   }
+}
+select{
+  border:0;
+  width:70px;
 }

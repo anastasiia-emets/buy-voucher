@@ -62,19 +62,14 @@
     width: 65px;
     margin-left: 12px;
   }
-  &__button-polygon {
-    background: white;
-    border: 0;
-    margin-left: -162px;
-    margin-top: 7px;
-  }
+  
   &__text {
     font-size: 11px;
     line-height: 11px;
     color: #90a0b7;
     margin-top: 18px;
   }
-  &__text_small{
+  &__text_small {
     font-size: 6px;
     color: #109cf1;
     margin-top: 23px;
@@ -108,12 +103,12 @@
     text-align: center;
     padding-left: 100px;
     color: #ffffff;
+    cursor: pointer;
   }
   &__condition {
     font-size: 11px;
     line-height: 13px;
     text-align: center;
-
     color: #90a0b7;
     width: 264px;
     margin-left: 20px;

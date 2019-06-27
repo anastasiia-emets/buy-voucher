@@ -104,6 +104,7 @@
   border-radius: 20px;
   border: 0;
   margin: 16px 8px 16px;
+  cursor: pointer;
 }
 
 .navigation {
@@ -136,10 +137,6 @@
   margin-left: 13px;
 }
 
-.navigation__icon {
-  margin-bottom: 30px;
-}
-
 .navigation__element {
   width: 300px;
   height: 48px;
@@ -158,6 +155,7 @@
   background: #ffffff;
   border: 0;
   color: #334d6e;
+  cursor: pointer;
 }
 
 .navigation__element:hover {
@@ -168,6 +166,11 @@
 .navigation__element_hover {
   background: rgba(16, 156, 241, 0.03);
   color: #109cf1;
+}
+
+select {
+  border: 0;
+  width: 70px;
 }
 
 .main-block {
@@ -252,13 +255,6 @@
   margin-left: 12px;
 }
 
-.main-block__button-polygon {
-  background: white;
-  border: 0;
-  margin-left: -162px;
-  margin-top: 7px;
-}
-
 .main-block__text {
   font-size: 11px;
   line-height: 11px;
@@ -308,6 +304,7 @@
   text-align: center;
   padding-left: 100px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .main-block__condition {
@@ -394,7 +391,7 @@ body {
 }
 
 .main-wrapper {
-  width: 100%;
+  max-width: 1400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
