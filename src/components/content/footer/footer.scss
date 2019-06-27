@@ -1,0 +1,40 @@
+.footer {
+  font-family: $main-font;
+  background: rgb(229, 229, 229);
+  padding-top: 60px;
+  display: flex;
+  padding-top: 296px;
+  justify-content: space-between;
+  &__link {
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 11px;
+    display: flex;
+    color: #90a0b7;
+    margin-right: 20px;
+  }
+  &__links {
+    display: flex;
+    margin-left: 80px;
+    flex-direction: row;
+  }
+  &__icon {
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  &__lang {
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    color: #90a0b7;
+  }
+  &__lang_hover {
+    color: #109cf1;
+    margin-right:12px;
+  }
+  &__languages{
+      display:flex;
+      margin-right:68px;
+
+  }
+}

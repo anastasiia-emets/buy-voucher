@@ -1,0 +1,12 @@
+@import "main-block/main-block";
+@import "footer/footer";
+
+
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
